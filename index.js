@@ -5,7 +5,7 @@ const options = {
     url: 'https://calorieninjas.p.rapidapi.com/v1/nutrition',
     params: { query: 'sweet potato' },
     headers: {
-        'x-rapidapi-key': '812523c13amsh876339f76159a0fp10c7f4jsnf63aac4a4a7e1',
+        'x-rapidapi-key': '812523c13amsh876339f76159a0fp10c7f4jsnf63aac4a4a7e',
         'x-rapidapi-host': 'calorieninjas.p.rapidapi.com'
     }
 };
