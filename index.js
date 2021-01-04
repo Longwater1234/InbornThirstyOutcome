@@ -5,7 +5,7 @@ const options = {
     url: 'https://calorieninjas.p.rapidapi.com/v1/nutrition',
     params: { query: 'sweet potato' },
     headers: {
-        'x-rapidapi-key': '812523c13amsh876339f76159a0fp10c7f4jsnf63aac4a4a7e',
+        'x-rapidapi-key': '812523c13amsh876339f76159a0fp10c7f4jsnf63aac4a4a7e1',
         'x-rapidapi-host': 'calorieninjas.p.rapidapi.com'
     }
 };
@@ -16,6 +16,5 @@ axios.request(options).then((response) => {
         console.error("Food info not found");
     else console.log(resultObject);
 }).catch((error) => {
-    console.error(error.response);
-    console.error(error);
+    console.error(error.message);
 });
