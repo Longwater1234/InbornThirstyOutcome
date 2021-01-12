@@ -17,4 +17,5 @@ axios.request(options).then((response) => {
     else console.log(resultObject);
 }).catch((error) => {
     console.error(error.message);
+    console.error(error.response.data);
 });
